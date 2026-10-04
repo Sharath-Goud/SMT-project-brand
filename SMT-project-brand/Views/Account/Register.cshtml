@@ -1,0 +1,505 @@
+﻿@model SMT_project_brand.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #d6dce4;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .register-page {
+        min-height: calc(100vh - 120px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 35px 15px;
+        margin-top: -50px;
+    }
+
+    .register-wrapper {
+        width: 100%;
+        max-width: 410px;
+    }
+
+    .register-card {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 14px;
+        padding: 34px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.04);
+        margin-top: 50px;
+    }
+
+    .register-header {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .register-logo {
+        width: 62px;
+        height: 62px;
+        margin: 0 auto 16px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        background: #1E40AF;
+        color: #FFFFFF;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        box-shadow: 0 6px 15px rgba(30, 64, 175, 0.20);
+    }
+
+    .register-header h2 {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 650;
+        color: #172033;
+    }
+
+    .register-header p {
+        margin: 7px 0 0 0;
+        color: #64748B;
+        font-size: 13px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 7px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #334155;
+    }
+
+    .input-wrapper {
+        position: relative;
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #94A3B8;
+        font-size: 14px;
+        pointer-events: none;
+    }
+
+    .register-input {
+        width: 100%;
+        height: 46px;
+        padding: 0 14px 0 40px;
+        border: 1px solid #CBD5E1;
+        border-radius: 8px;
+        background: #F8FAFC;
+        color: #172033;
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .register-input:hover {
+            border-color: #94A3B8;
+        }
+
+        .register-input:focus {
+            background: #FFFFFF;
+            border-color: #1E40AF;
+            box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.10);
+        }
+
+        .register-input::placeholder {
+            color: #94A3B8;
+        }
+
+    .password-input {
+        padding-right: 55px;
+    }
+
+    .password-toggle {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: transparent;
+        color: #64748B;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 4px;
+    }
+
+        .password-toggle:hover {
+            color: #1E40AF;
+        }
+
+    .validation-message {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #DC2626;
+    }
+
+    .validation-summary {
+        margin-bottom: 18px;
+        padding: 10px 12px;
+        border-radius: 7px;
+        background: #FEF2F2;
+        border: 1px solid #FECACA;
+        color: #B91C1C;
+        font-size: 13px;
+    }
+
+    .register-button {
+        width: 100%;
+        height: 46px;
+        border: none;
+        border-radius: 8px;
+        background: #1E40AF;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        cursor: pointer;
+        margin-top: 4px;
+        transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+
+        .register-button:hover {
+            background: #1E3A8A;
+            box-shadow: 0 6px 15px rgba(30, 64, 175, 0.20);
+            transform: translateY(-1px);
+        }
+
+
+        .register-button:active {
+            transform: translateY(0);
+        }
+
+    .login-section {
+        text-align: center;
+        margin-top: 22px;
+        padding-top: 20px;
+        border-top: 1px solid #E2E8F0;
+        color: #64748B;
+        font-size: 13px;
+    }
+
+    .login-link {
+        color: #1E40AF;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 4px;
+    }
+
+        .login-link:hover {
+            color: #1E3A8A;
+            text-decoration: underline;
+        }
+
+    .copyright {
+        text-align: center;
+        margin-top: 15px;
+        color: #94A3B8;
+        font-size: 11px;
+    }
+
+    @@media (max-width: 576px) {
+
+        .register-page {
+            padding: 20px 15px;
+        }
+
+        .register-card {
+            padding: 26px 21px;
+            margin-top: 20px;
+        }
+
+        .register-header h2 {
+            font-size: 23px;
+        }
+    }
+
+</style>
+
+
+<div class="register-page">
+
+    <div class="register-wrapper">
+
+        <div class="register-card">
+
+            <div class="register-header">
+
+                <div class="register-logo">
+                    SMT
+                </div>
+
+                <h2>Create Account</h2>
+
+                <p>
+                    Register your SMT Project Brand account
+                </p>
+
+            </div>
+
+            <form asp-controller="Account"
+                  asp-action="Register"
+                  method="post">
+
+                @Html.AntiForgeryToken()
+
+                <div asp-validation-summary="ModelOnly"
+                     class="validation-summary">
+                </div>
+
+                <div class="form-group">
+
+                    <label asp-for="EmployeeId"
+                           class="form-label">
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            👤
+                        </span>
+
+                        <input asp-for="EmployeeId"
+                               class="register-input"
+                               placeholder="Enter your Employee ID"
+                               autocomplete="username"
+                               maxlength="50" />
+
+                    </div>
+
+                    <span asp-validation-for="EmployeeId"
+                          class="validation-message">
+                    </span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label asp-for="FullName"
+                           class="form-label">
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            👤
+                        </span>
+
+                        <input asp-for="FullName"
+                               class="register-input"
+                               placeholder="Enter your employee name"
+                               autocomplete="name"
+                               maxlength="100" />
+
+                    </div>
+
+                    <span asp-validation-for="FullName"
+                          class="validation-message">
+                    </span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label asp-for="Password"
+                           class="form-label">
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            🔒
+                        </span>
+
+                        <input asp-for="Password"
+                               id="registerPassword"
+                               class="register-input password-input"
+                               placeholder="Enter your password"
+                               autocomplete="new-password" />
+
+                        <button type="button"
+                                class="password-toggle"
+                                id="registerPasswordToggle"
+                                aria-label="Show password">
+
+                            Show
+
+                        </button>
+
+                    </div>
+
+                    <span asp-validation-for="Password"
+                          class="validation-message">
+                    </span>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label asp-for="ConfirmPassword"
+                           class="form-label">
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            🔒
+                        </span>
+
+                        <input asp-for="ConfirmPassword"
+                               id="confirmPassword"
+                               class="register-input password-input"
+                               placeholder="Confirm your password"
+                               autocomplete="new-password" />
+
+                        <button type="button"
+                                class="password-toggle"
+                                id="confirmPasswordToggle"
+                                aria-label="Show password">
+
+                            Show
+
+                        </button>
+
+                    </div>
+
+                    <span asp-validation-for="ConfirmPassword"
+                          class="validation-message">
+                    </span>
+
+                </div>
+
+                <button type="submit"
+                        class="register-button">
+
+                    Register
+
+                </button>
+
+
+            </form>
+
+            <div class="login-section">
+
+                Already have an account?
+
+                <a asp-controller="Account"
+                   asp-action="Login"
+                   class="login-link">
+
+                    Login
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © @DateTime.Now.Year SMT Project Brand.
+            All rights reserved.
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            function setupPasswordToggle(
+                inputId,
+                buttonId) {
+
+                const passwordInput =
+                    document.getElementById(inputId);
+
+                const passwordToggle =
+                    document.getElementById(buttonId);
+
+
+                if (passwordInput && passwordToggle) {
+
+                    passwordToggle.addEventListener(
+                        "click",
+                        function () {
+
+                            if (passwordInput.type === "password") {
+
+                                passwordInput.type = "text";
+
+                                passwordToggle.textContent = "Hide";
+
+                                passwordToggle.setAttribute(
+                                    "aria-label",
+                                    "Hide password"
+                                );
+
+                            }
+                            else {
+
+                                passwordInput.type = "password";
+
+                                passwordToggle.textContent = "Show";
+
+                                passwordToggle.setAttribute(
+                                    "aria-label",
+                                    "Show password"
+                                );
+
+                            }
+
+                        }
+                    );
+
+                }
+
+            }
+
+
+            setupPasswordToggle(
+                "registerPassword",
+                "registerPasswordToggle"
+            );
+
+
+            setupPasswordToggle(
+                "confirmPassword",
+                "confirmPasswordToggle"
+            );
+
+        });
+
+    </script>
+}

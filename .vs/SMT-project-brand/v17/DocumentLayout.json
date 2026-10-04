@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|c:\\users\\2063907\\source\\repos\\smt-project-brand\\smt-project-brand\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2F35D1A-4586-455E-8BC8-5000F61D8D92}|SMT-project-brand\\SMT-project-brand.csproj|solutionrelative:smt-project-brand\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SMT-project-brand\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T11:04:49.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SMT-project-brand\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:01:46.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SMT-project-brand\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAALYBAAAAAAAAAAAkwMcBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T11:01:24.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "SMT-project-brand\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACMBAAAAAAAAAAAkwDQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T11:00:55.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SMT-project-brand\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAYwJ4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:59:32.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "SMT-project-brand\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:59:00.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "SMT-project-brand\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:58:34.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SMT-project-brand\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:56:30.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SMT-project-brand\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:55:41.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\appsettings.json",
+              "RelativeDocumentMoniker": "SMT-project-brand\\appsettings.json",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\appsettings.json",
+              "RelativeToolTip": "SMT-project-brand\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T10:51:36.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Program.cs",
+              "RelativeDocumentMoniker": "SMT-project-brand\\Program.cs",
+              "ToolTip": "C:\\Users\\2063907\\source\\repos\\SMT-project-brand\\SMT-project-brand\\Program.cs",
+              "RelativeToolTip": "SMT-project-brand\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:50:45.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
